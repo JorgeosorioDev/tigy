@@ -1,0 +1,69 @@
+.register
+    position: relative
+    display: grid
+    width: 100%
+    height: 100vh
+    text-align: center
+    background-color: #fff
+    background-image: url(../../images/tigy-bg.png)
+    background-size: cover
+    background-repeat: no-repeat
+
+.register-box
+    position: relative
+    margin: 0px auto
+    width: 400px
+    height: auto
+    padding: 20px
+    // border: 1px solid #bbb
+    align-self: center
+    h1
+        margin: 20px 0px
+        color: #414659
+        text-align: left
+    p
+        margin: 10px 0px
+        font-weight: 500
+        a
+            color: #000
+            text-decoration: none
+    
+.register-form
+    input, select
+        margin: 15px 0px
+        padding: 15px 0px 15px 15px
+        width: 95%
+        border: 2px solid #edf0f1
+        border-radius: 10px
+    select
+        width: 100%
+        color: #414659
+    label
+        display: block
+        margin: 10px 0px
+        color: #414659
+        text-align: left
+        font-weight: 500
+    button
+        margin: 15px 0px
+        padding: 15px
+        width: 100%
+        color: #fff
+        font-size: 18px
+        font-weight: 500
+        background-color: #99719e
+        border-radius: 10px
+        cursor: pointer
+    i
+        margin-right: 15px
+        font-size: 18px
+        &.fa-check-square
+            display: none
+            color: #99719e
+
+input[type=checkbox]#register-check
+    &:checked + label
+        i.fa-square
+            display: none
+        i.fa-check-square
+            display: inline-block

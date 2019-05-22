@@ -1,0 +1,20 @@
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, span {
+    margin: 0px;
+    padding: 0px;
+}
+
+input:focus, textarea:focus, select:focus, button:focus {
+    outline: none;
+}
+
+input:focus, select:focus {
+    border: 2px solid #99719e;
+}
+
+input, textarea, select {
+    border: none;
+}
+
+input[type=checkbox] {
+    display: none;
+}

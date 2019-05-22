@@ -1,0 +1,89 @@
+.body-component.help {
+  display: -ms-grid;
+  display: grid;
+  z-index: -1;
+  opacity: 0;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.body-component.help.active {
+  z-index: 10;
+  opacity: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.body-component.help.active .provide-help {
+  top: 0px;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.provide-help {
+  position: relative;
+  top: 20px;
+  margin: 0px auto;
+  width: 450px;
+  height: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.provide-help-header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  padding: 20px;
+  border-bottom: 1px solid #ecedef;
+  color: #414659;
+}
+
+#close-provide-help {
+  text-align: right;
+}
+
+#close-provide-help i {
+  cursor: pointer;
+}
+
+.provide-help-body {
+  padding: 20px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.provide-help-body span {
+  font-weight: 600;
+}
+
+.provide-help-body h4 {
+  margin-top: 10px;
+  color: #36a9d2;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.provide-help-body h4 i {
+  margin-left: 5px;
+  color: #99719e;
+}
+
+.provide-help-footer {
+  padding: 20px;
+  text-align: right;
+}
+/*# sourceMappingURL=ProvideHelp.css.map */

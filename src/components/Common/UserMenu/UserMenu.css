@@ -1,0 +1,40 @@
+.user-menu ul li {
+  margin: 30px 0px;
+  padding: 10px 20px;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-left: 4px solid #fff;
+  cursor: pointer;
+}
+
+.user-menu ul li.navigation--active, .user-menu ul li.active, .user-menu ul li:hover {
+  color: #99719e;
+  border-left: 4px solid #99719e;
+}
+
+.user-menu ul li.active a {
+  color: #99719e;
+}
+
+.user-menu ul li a {
+  color: #7f87a8;
+  text-decoration: none;
+}
+
+.user-menu ul li a:hover {
+  color: #99719e;
+}
+
+.user-menu ul li a i {
+  margin: 0px 15px;
+  font-size: 18px;
+}
+
+/*ul
+    li
+        cursor: pointer */
+/*li.navigation--active
+    text-decoration: underline */
+/*# sourceMappingURL=UserMenu.css.map */

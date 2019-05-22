@@ -1,0 +1,152 @@
+.body-component.notifications {
+  display: -ms-grid;
+  display: grid;
+  z-index: -1;
+  opacity: 0;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  text-align: -webkit-right;
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.body-component.notifications.active {
+  text-align: -webkit-right;
+  z-index: 10;
+  opacity: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.body-component.notifications.active .notifications-bar {
+  left: 0px;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.notifications-bar {
+  position: relative;
+  left: 20px;
+  width: 400px;
+  height: 100%;
+  text-align: left;
+  background-color: #fff;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.notifications-header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  padding: 20px;
+  border-bottom: 1px solid #ecedef;
+  color: #414659;
+}
+
+#close-notifications {
+  text-align: right;
+}
+
+#close-notifications i {
+  cursor: pointer;
+}
+
+.swicht-buttons {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #ecedef;
+}
+
+.swicht-buttons button {
+  padding: 10px 20px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.swicht-buttons button.my-nots {
+  color: #fff;
+  background-color: #99719e;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.swicht-buttons button.nov-tigy {
+  color: #99719e;
+  background-color: #f5f1f5;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.notifications-title {
+  padding: 10px;
+  background-color: #f8f9fd;
+  border-bottom: 1px solid #ecedef;
+}
+
+.notifications-title h5 {
+  color: #9b9b9b;
+  font-weight: lighter;
+}
+
+.notification-message {
+  padding: 15px;
+  border-bottom: 1px solid #ecedef;
+}
+
+.notification-message .notification-description p {
+  margin-top: 10px;
+}
+
+.notification-user-info {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.notification-user-info .notification-user {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr;
+      grid-template-columns: auto 1fr;
+  grid-gap: 10px;
+}
+
+.notification-user-info .user-post-img {
+  width: 30px;
+  height: 30px;
+}
+
+.notification-user-info p {
+  font-size: 14px;
+}
+
+.notification-user-info small {
+  color: #7f87a8;
+  font-size: 10px;
+  line-height: 5px;
+}
+
+.notification-user-info .notification-user-relation {
+  line-height: 8px;
+}
+
+.notification-user-info .notification-time {
+  text-align: right;
+}
+
+.notification-description p {
+  font-size: 12px;
+}
+
+.previous-notifications {
+  background-color: #f5f6fb;
+}
+/*# sourceMappingURL=NotificationsBar.css.map */

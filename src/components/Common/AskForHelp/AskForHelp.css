@@ -1,0 +1,113 @@
+.body-component.ask {
+  display: -ms-grid;
+  display: grid;
+  z-index: -1;
+  opacity: 0;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.body-component.ask.active {
+  z-index: 10;
+  opacity: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.body-component.ask.active .askFor-help {
+  top: 0px;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.askFor-help {
+  position: relative;
+  top: 20px;
+  margin: 0px auto;
+  width: 500px;
+  height: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.askFor-help-header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  position: relative;
+  padding: 20px;
+  border-bottom: 1px solid #ecedef;
+  color: #414659;
+}
+
+#close-askFor-help {
+  text-align: right;
+}
+
+#close-askFor-help i {
+  cursor: pointer;
+}
+
+.askFor-help-body {
+  position: relative;
+  padding: 20px;
+}
+
+.askFor-help-body .askFor-help-request {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr;
+      grid-template-columns: auto 1fr;
+  grid-gap: 10px;
+  position: relative;
+}
+
+.askFor-help-body .askFor-help-request .user-post-img {
+  width: 30px;
+  height: 30px;
+}
+
+.askFor-help-body .askFor-help-request textarea {
+  min-width: 90%;
+  max-width: 400px;
+  min-height: 150px;
+  max-height: 150px;
+}
+
+.askFor-help-body small {
+  color: #7f87a8;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.askFor-help-body small i {
+  margin-right: 5px;
+}
+
+.askFor-help-footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  padding: 20px;
+}
+
+.askFor-help-footer .reward i {
+  font-size: 18px;
+  color: #99719e;
+}
+/*# sourceMappingURL=AskForHelp.css.map */

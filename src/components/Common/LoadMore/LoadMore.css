@@ -1,0 +1,16 @@
+.load-more {
+  padding: 50px;
+  color: #414659;
+  text-align: center;
+}
+
+.load-more p {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.load-more p i {
+  margin-right: 10px;
+  font-size: 18px;
+}
+/*# sourceMappingURL=LoadMore.css.map */

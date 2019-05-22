@@ -1,0 +1,37 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f5f6fb;
+}
+
+button {
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+}
+
+button.cancel, button.friends, button.reward {
+  margin-right: 10px;
+  color: #414659;
+  background-color: #fff;
+  border: 2px solid #edf0f1;
+}
+
+button.friends, button.reward {
+  width: 100%;
+}
+
+button.friends p, button.reward p {
+  float: left;
+}
+
+button.friends i, button.reward i {
+  float: right;
+}
+
+button.confirm, button.send-request {
+  color: #fff;
+  background-color: #36a9d2;
+}
+/*# sourceMappingURL=App.css.map */

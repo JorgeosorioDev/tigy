@@ -1,0 +1,86 @@
+.my-posts {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / 3;
+  padding: 20px;
+  color: #7f87a8;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.05);
+}
+
+.my-post-header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  color: #414659;
+}
+
+.my-post-header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr;
+      grid-template-columns: auto 1fr;
+  grid-gap: 10px;
+}
+
+.my-post-img {
+  float: left;
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  border-radius: 50%;
+}
+
+.my-post-info {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.my-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.my-post-timer {
+  color: #7f87a8;
+}
+
+.recognition-counter {
+  text-align: right;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.recognition-counter p {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.recognition-counter p i {
+  margin-left: 5px;
+}
+
+.my-post-content {
+  margin: 15px -20px 0px -20px;
+  height: 300px;
+  background-color: gray;
+}
+
+.my-post-coment-counter {
+  padding: 15px 0px 0px 0px;
+}
+
+.my-post-coment-counter p {
+  font-size: 14px;
+  color: #9d9d9d;
+}
+/*# sourceMappingURL=MyPosts.css.map */

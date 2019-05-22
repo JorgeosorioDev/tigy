@@ -1,0 +1,227 @@
+.body-component.sed_reward {
+  display: -ms-grid;
+  display: grid;
+  z-index: -1;
+  opacity: 0;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.body-component.sed_reward.active {
+  z-index: 10;
+  opacity: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.body-component.sed_reward.active .send-reward {
+  top: 0px;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.send-reward {
+  position: relative;
+  top: 20px;
+  margin: 0px auto;
+  width: 500px;
+  height: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.send-reward-header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  position: relative;
+  padding: 20px;
+  border-bottom: 1px solid #ecedef;
+  color: #414659;
+}
+
+#close-send-reward {
+  text-align: right;
+}
+
+#close-send-reward i {
+  cursor: pointer;
+}
+
+.send-reward-body {
+  position: relative;
+  padding: 20px;
+}
+
+.send-reward-body .search-bar {
+  padding: 10px;
+  color: #7f87a8;
+  border: 1px solid #edf0f1;
+  border-radius: 10px;
+}
+
+.send-reward-body .search-bar i {
+  margin-right: 5px;
+}
+
+.send-reward-body .search-bar input {
+  width: 80%;
+}
+
+.send-reward-body .search-bar input:focus {
+  border: none;
+}
+
+.send-reward-body .select-area {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.send-reward-body .select-area ul {
+  margin: 15px 0px;
+}
+
+.send-reward-body .select-area ul li {
+  margin: 15px 0px;
+  list-style: none;
+  font-size: 16px;
+  color: #7f87a8;
+  font-weight: 600;
+}
+
+.send-reward-body .select-area ul li i {
+  margin-right: 15px;
+  font-size: 18px;
+}
+
+.send-reward-body .select-area ul li i.fa-check-square {
+  display: none;
+  color: #99719e;
+}
+
+input[type=checkbox]#suport-me:checked + label i.fa-square {
+  display: none;
+}
+
+input[type=checkbox]#suport-me:checked + label i.fa-check-square {
+  display: inline-block;
+}
+
+input[type=checkbox]#love-me:checked + label i.fa-square {
+  display: none;
+}
+
+input[type=checkbox]#love-me:checked + label i.fa-check-square {
+  display: inline-block;
+}
+
+input[type=checkbox]#help-me:checked + label i.fa-square {
+  display: none;
+}
+
+input[type=checkbox]#help-me:checked + label i.fa-check-square {
+  display: inline-block;
+}
+
+input[type=checkbox]#share-me:checked + label i.fa-square {
+  display: none;
+}
+
+input[type=checkbox]#share-me:checked + label i.fa-check-square {
+  display: inline-block;
+}
+
+input[type=checkbox]#exist:checked + label i.fa-square {
+  display: none;
+}
+
+input[type=checkbox]#exist:checked + label i.fa-check-square {
+  display: inline-block;
+}
+
+input[type=checkbox]#guide-me:checked + label i.fa-square {
+  display: none;
+}
+
+input[type=checkbox]#guide-me:checked + label i.fa-check-square {
+  display: inline-block;
+}
+
+input[type=checkbox]#kindness:checked + label i.fa-square {
+  display: none;
+}
+
+input[type=checkbox]#kindness:checked + label i.fa-check-square {
+  display: inline-block;
+}
+
+input[type=checkbox]#commitment:checked + label i.fa-square {
+  display: none;
+}
+
+input[type=checkbox]#commitment:checked + label i.fa-check-square {
+  display: inline-block;
+}
+
+input[type=checkbox]#honesty:checked + label i.fa-square {
+  display: none;
+}
+
+input[type=checkbox]#honesty:checked + label i.fa-check-square {
+  display: inline-block;
+}
+
+input[type=checkbox]#goodness:checked + label i.fa-square {
+  display: none;
+}
+
+input[type=checkbox]#goodness:checked + label i.fa-check-square {
+  display: inline-block;
+}
+
+input[type=checkbox]#discipline:checked + label i.fa-square {
+  display: none;
+}
+
+input[type=checkbox]#discipline:checked + label i.fa-check-square {
+  display: inline-block;
+}
+
+input[type=checkbox]#integrity:checked + label i.fa-square {
+  display: none;
+}
+
+input[type=checkbox]#integrity:checked + label i.fa-check-square {
+  display: inline-block;
+}
+
+.send-reward-footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  padding: 20px;
+}
+
+.send-reward-footer .reward i {
+  font-size: 18px;
+  color: #99719e;
+}
+/*# sourceMappingURL=SendReward.css.map */

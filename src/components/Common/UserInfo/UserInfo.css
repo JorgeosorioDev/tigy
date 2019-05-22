@@ -1,0 +1,36 @@
+.user-info {
+  position: relative;
+  padding: 50px;
+  text-align: center;
+}
+
+.user-img {
+  margin: 15px auto;
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.user-name {
+  color: #404558;
+}
+
+.user-level {
+  display: inline-block;
+}
+
+.user-level p {
+  margin: 15px auto;
+  padding: 5px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #5d8ee8;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=UserInfo.css.map */

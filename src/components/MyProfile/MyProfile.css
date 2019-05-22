@@ -1,0 +1,16 @@
+.my-profile {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 290px 1fr;
+      grid-template-columns: 290px 1fr;
+}
+
+.my-profile .main-content .group-bar {
+  height: auto;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3 / 4;
+  -ms-grid-row: 2;
+  grid-row: 2;
+}
+/*# sourceMappingURL=MyProfile.css.map */

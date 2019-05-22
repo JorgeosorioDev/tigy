@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,WADO,CACP,EAAE,CAAC;EACC,MAAM,EAAE,QAAQ;EAChB,KAAK,EAAE,OAAO;CAAG",
+    "sources": [
+        "TitleSection.sass"
+    ],
+    "names": [],
+    "file": "TitleSection.css"
+}
